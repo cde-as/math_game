@@ -12,6 +12,6 @@ class Question
   end
 
   def correct?(input)
-    input == @answer
+    input.to_i == @answer
   end
 end
